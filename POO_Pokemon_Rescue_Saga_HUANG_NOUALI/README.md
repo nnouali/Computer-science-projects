@@ -2,7 +2,7 @@
 
 Projet de Programmation Orientée Objet (Java / Swing) — HUANG & NOUALI
 
-Un jeu de réflexion inspiré des jeux de type « SameGame » : sauvez les Pokémon
+Un jeu de réflexion inspiré des jeux de type « Pet Rescue Saga » : sauvez les Pokémon
 des mains de la Team Rocket en faisant disparaître les blocs de couleur qui les
 retiennent, jusqu'à ce qu'ils atteignent le sol.
 
@@ -30,7 +30,7 @@ Chaque coup rapporte `(nombre de cases supprimées)² × 10` points. Le bouton
 ## Fonctionnalités
 
 - **3 niveaux** de difficulté croissante (plateaux différents, nouveaux Pokémon
-  à sauver — Pikachu, Aquali, Mentali — et cases fixes au niveau 3).
+  à sauver : Pikachu, Aquali, Mentali et cases fixes au niveau 3).
 - **Mode Robot** : le jeu se joue tout seul, en cliquant chaque seconde sur
   une case valide choisie au hasard.
 - **Help me** : met en évidence (fleurs) un groupe de cases jouable.
