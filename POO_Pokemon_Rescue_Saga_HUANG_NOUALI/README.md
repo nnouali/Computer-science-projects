@@ -31,8 +31,8 @@ Chaque coup rapporte `(nombre de cases supprimées)² × 10` points. Le bouton
 
 - **3 niveaux** de difficulté croissante (plateaux différents, nouveaux Pokémon
   à sauver — Pikachu, Aquali, Mentali — et cases fixes au niveau 3).
-- **Mode Robot** : une IA joue toute seule en cliquant une case valide par
-  seconde.
+- **Mode Robot** : le jeu se joue tout seul, en cliquant chaque seconde sur
+  une case valide choisie au hasard.
 - **Help me** : met en évidence (fleurs) un groupe de cases jouable.
 - **Undo / Restart / Next Level / Exit** disponibles depuis chaque niveau.
 - **Version console** (`PlateauText`) : le niveau 1 jouable au clavier en
@@ -70,7 +70,8 @@ Le projet suit une organisation proche du modèle MVC :
 | `PlateauMain.java` | Fenêtre d'accueil : choix du niveau, mode robot, règles, quitter. |
 | `PlateauNiveau1/2/3.java` | Les trois niveaux (grille propre à chacun). |
 | `PlateauRobot.java` | Mode automatique : un `Timer` joue un coup aléatoire valide chaque seconde. |
-| `PlateauText.java` / `ModelText.java` | Version console du jeu. |
+| `PlateauText.java` | Version console du jeu (utilise `Modele`). |
+| `ModelText.java` | Variante de `Modele` prévue pour la version console, non utilisée actuellement. |
 | `Joueur.java` | Pseudo et score du joueur, saisie clavier pour la version console. |
 | `Serialisable.java` | Interface marqueur. |
 
@@ -86,8 +87,3 @@ Le plateau est représenté par une matrice d'entiers `color[i][j]` :
 | 7 | case fixe (caillou) |
 | 8 | Aquali |
 | 9 | Mentali |
-
-## Auteurs
-
-Projet réalisé par **HUANG** et **NOUALI** dans le cadre du cours de
-Programmation Orientée Objet.
