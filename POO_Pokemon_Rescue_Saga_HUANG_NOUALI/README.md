@@ -31,8 +31,8 @@ Chaque coup rapporte `(nombre de cases supprimées)² × 10` points. Le bouton
 
 - **3 niveaux** de difficulté croissante (plateaux différents, nouveaux Pokémon
   à sauver — Pikachu, Aquali, Mentali — et cases fixes au niveau 3).
-- **Mode Robot** : une IA joue toute seule en cliquant une case valide par
-  seconde.
+- **Mode Robot** : le jeu se joue tout seul, en cliquant chaque seconde sur
+  une case valide choisie au hasard.
 - **Help me** : met en évidence (fleurs) un groupe de cases jouable.
 - **Undo / Restart / Next Level / Exit** disponibles depuis chaque niveau.
 - **Version console** (`PlateauText`) : le niveau 1 jouable au clavier en
