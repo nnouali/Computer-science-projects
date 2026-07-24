@@ -71,7 +71,6 @@ Le projet suit une organisation proche du modèle MVC :
 | `PlateauNiveau1/2/3.java` | Les trois niveaux (grille propre à chacun). |
 | `PlateauRobot.java` | Mode automatique : un `Timer` joue un coup aléatoire valide chaque seconde. |
 | `PlateauText.java` | Version console du jeu (utilise `Modele`). |
-| `ModelText.java` | Variante de `Modele` prévue pour la version console, non utilisée actuellement. |
 | `Joueur.java` | Pseudo et score du joueur, saisie clavier pour la version console. |
 | `Serialisable.java` | Interface marqueur. |
 
