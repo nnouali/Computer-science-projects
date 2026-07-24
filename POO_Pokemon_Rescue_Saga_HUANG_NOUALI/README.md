@@ -1,10 +1,10 @@
 # Pokemon Rescue Saga
 
-Projet de Programmation Orientée Objet (Java / Swing) — HUANG & NOUALI
+Projet de Programmation Orientée Objet (Java / Swing)
 
-Un jeu de réflexion inspiré des jeux de type « Pet Rescue Saga » : sauvez les Pokémon
-des mains de la Team Rocket en faisant disparaître les blocs de couleur qui les
-retiennent, jusqu'à ce qu'ils atteignent le sol.
+Un jeu de réflexion : sauvez les Pokémon des mains de la Team Rocket en
+cliquant sur les groupes de cases de même couleur pour les faire disparaître,
+jusqu'à ce que les Pokémon atteignent le sol.
 
 ![Aperçu du jeu](jeu.jpg)
 
@@ -30,7 +30,7 @@ Chaque coup rapporte `(nombre de cases supprimées)² × 10` points. Le bouton
 ## Fonctionnalités
 
 - **3 niveaux** de difficulté croissante (plateaux différents, nouveaux Pokémon
-  à sauver : Pikachu, Aquali, Mentali et cases fixes au niveau 3).
+  à sauver — Pikachu, Aquali, Mentali — et cases fixes au niveau 3).
 - **Mode Robot** : le jeu se joue tout seul, en cliquant chaque seconde sur
   une case valide choisie au hasard.
 - **Help me** : met en évidence (fleurs) un groupe de cases jouable.
@@ -87,3 +87,8 @@ Le plateau est représenté par une matrice d'entiers `color[i][j]` :
 | 7 | case fixe (caillou) |
 | 8 | Aquali |
 | 9 | Mentali |
+
+## Auteurs
+
+Projet réalisé par **HUANG** et **NOUALI** dans le cadre du cours de
+Programmation Orientée Objet.
