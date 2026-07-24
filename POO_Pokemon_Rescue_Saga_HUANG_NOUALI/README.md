@@ -2,9 +2,9 @@
 
 Projet de Programmation Orientée Objet (Java / Swing) — HUANG & NOUALI
 
-Un jeu de réflexion inspiré des jeux de type « SameGame » : sauvez les Pokémon
-des mains de la Team Rocket en faisant disparaître les blocs de couleur qui les
-retiennent, jusqu'à ce qu'ils atteignent le sol.
+Un jeu de réflexion : sauvez les Pokémon des mains de la Team Rocket en
+cliquant sur les groupes de cases de même couleur pour les faire disparaître,
+jusqu'à ce que les Pokémon atteignent le sol.
 
 ![Aperçu du jeu](jeu.jpg)
 
